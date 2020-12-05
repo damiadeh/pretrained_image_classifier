@@ -1,0 +1,51 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = vgg 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:                Shih_tzu_02.jpg  label:                   shih tzu
+ 2 key:                   Doll_01.jpeg  label:                       doll
+ 3 key:                    Lion_01.jpg  label:                       lion
+ 4 key:                Shih_tzu_01.jpg  label:                   shih tzu
+
+     MATCH:
+
+                   Lion_01.jpg: 
+Real:                       lion   Classifier: lion, king of beasts, panthera leo
+
+ NOT A MATCH:
+
+               Shih_tzu_02.jpg: 
+Real:                   shih tzu   Classifier: three-toed sloth, ai, bradypus tridactylus
+
+                  Doll_01.jpeg: 
+Real:                       doll   Classifier:          diaper, nappy, napkin
+
+               Shih_tzu_01.jpg: 
+Real:                   shih tzu   Classifier:                       shih-tzu
+
+# Total Images 4 # Matches: 1 # NOT Matches: 3
+
+     MATCH:
+
+                   Lion_01.jpg: 
+Real:                       lion   Classifier: lion, king of beasts, panthera leo  
+PetLabelDog: 0  ClassLabelDog: 0
+
+ NOT A MATCH:
+
+               Shih_tzu_02.jpg: 
+Real:                   shih tzu   Classifier: three-toed sloth, ai, bradypus tridactylus  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                  Doll_01.jpeg: 
+Real:                       doll   Classifier:          diaper, nappy, napkin  
+PetLabelDog: 0  ClassLabelDog: 0
+
+               Shih_tzu_01.jpg: 
+Real:                   shih tzu   Classifier:                       shih-tzu  
+PetLabelDog: 0  ClassLabelDog: 1
+
+# Total Images 4 # Matches: 1 # NOT Matches: 3
